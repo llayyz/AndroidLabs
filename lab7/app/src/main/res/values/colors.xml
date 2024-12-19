@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Основной фон -->
+    <color name="background">#F4F7FB</color> <!-- Светлый серо-голубой фон для всей страницы -->
+
+    <!-- Основной цвет для кнопок и акцентов -->
+    <color name="primary">#4CAF50</color> <!-- Зеленый для активных элементов (кнопки) -->
+
+    <!-- Вторичный цвет для кнопок или фона -->
+    <color name="secondary">#2196F3</color> <!-- Голубой для менее важного контента -->
+
+    <!-- Цвет фона для выделения или карточек -->
+    <color name="cardBackground">#FFFFFF</color> <!-- Белый для карточек и элементов на фоне -->
+
+    <!-- Цвет для текста на темном фоне -->
+    <color name="textPrimary">#212121</color> <!-- Темный текст (основной) -->
+
+    <!-- Цвет для текста на светлом фоне -->
+    <color name="textSecondary">#757575</color> <!-- Серый текст (менее важный) -->
+
+    <!-- Цвет текста для ссылки или акцентного текста -->
+    <color name="linkText">#3F51B5</color> <!-- Синий для ссылок или акцентов -->
+
+    <!-- Цвет кнопок с выделением/активных элементов -->
+    <color name="buttonText">#FFFFFF</color> <!-- Белый цвет текста кнопок -->
+
+    <!-- Цвет фона для кнопок -->
+    <color name="buttonBackground">#4CAF50</color> <!-- Зеленый фон для кнопок -->
+
+    <!-- Цвет фона кнопок при нажатии -->
+    <color name="buttonPressed">#388E3C</color> <!-- Тёмно-зеленый для нажатых кнопок -->
+
+    <!-- Цвет для текста в подвалах -->
+    <color name="footerText">#9E9E9E</color> <!-- Серый для футера -->
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#757575</color>
+    <color name="primary_bg">#1A1A1A</color> <!-- Темный фон -->
+    <color name="secondary_text">#B0B0B0</color> <!-- Цвет для текста -->
+
+</resources>

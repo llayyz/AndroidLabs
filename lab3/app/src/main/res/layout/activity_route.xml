@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/background_color">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выполнил Грицук Дмитрий АС-63"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/routeEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Часть маршрута 1"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColorHint="@color/text_secondary"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/routeEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Часть маршрута 2"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColorHint="@color/text_secondary"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/routeEditText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Часть маршрута 3"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColorHint="@color/text_secondary"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/routeEditText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Часть маршрута 4"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColorHint="@color/text_secondary"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/routeEditText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Часть маршрута 5"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColorHint="@color/text_secondary"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/routeEditText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Часть маршрута 6"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColorHint="@color/text_secondary"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ОК"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="open_camera">Открыть Камеру</string>
+    <string name="play_media">Воспроизвести Медиа</string>
+    <string name="view_gallery">Просмотреть Галерею</string>
+    <string name="take_photo">Сделать фото</string>
+    <string name="to_main_page">На главную</string>
+    <string name="image_thumbnail">Превью изображения</string>
+    <string name="made_by">Грицук Д.Ю. АС-63</string>
+
+</resources>

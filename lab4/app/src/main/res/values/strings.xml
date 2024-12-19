@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Лаб 4 Грицук Д.Ю. АС-63</string>
+    <string name="text_view">TextView</string>
+    <string name="loadBtn">Загрузить данные</string>
+    <string name="author">Грицук Дмитрий Юрьевич АС-63</string>
+    <string name="authorBtn">Автор</string>
+    <string name="emptyList">Нажмите «Загрузить данные» </string>
+    <string name="backBtn">Назад</string>
+</resources>

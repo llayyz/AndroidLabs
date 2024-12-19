@@ -1,0 +1,9 @@
+<resources>
+    <color name="background_color">#FAFAFA</color> <!-- Цвет фона -->
+    <color name="colorPrimary">#6200EE</color> <!-- Основной цвет -->
+    <color name="colorAccent">#FF3700B3</color> <!-- Цвет акцента -->
+    <color name="button_start_color">#FF6200EE</color>
+    <color name="button_end_color">#FF3700B3</color>
+    <color name="button_pressed_color">#FF3700B3</color>
+    <color name="gray">#888888</color>
+</resources>

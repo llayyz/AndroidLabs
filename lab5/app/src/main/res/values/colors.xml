@@ -1,0 +1,45 @@
+<resources>
+    <!-- Основной фон активности -->
+    <color name="background_color">#242222</color>
+
+    <color name="white">#ffffff</color>
+
+    <!-- Фон для TabLayout -->
+    <color name="tab_background">#282626</color>
+
+    <!-- Цвет текста вкладок -->
+    <color name="tab_text_color">#ebebeb</color>
+
+    <!-- Цвет текста выбранной вкладки -->
+    <color name="tab_selected_text_color">#3F51B5</color>
+
+    <!-- Цвет индикатора вкладки -->
+    <color name="tab_indicator_color">#3F51B5</color>
+
+    <!-- Фон для ViewPager -->
+    <color name="viewpager_background">#242222</color>
+
+    <!-- Цвет фона кнопки -->
+    <color name="button_background">#3F51B5</color>
+
+    <!-- Цвет фона кнопки при нажатии -->
+    <color name="button_pressed_background">#303F9F</color>
+
+    <!-- Цвет границ кнопки -->
+    <color name="button_border_color">#FFFFFF</color>
+
+    <!-- Цвет границ кнопки при нажатии -->
+    <color name="button_border_color_pressed">#FFC107</color>
+
+        <!-- Основной цвет фона страницы -->
+    <color name="new_background_color">#F5F5F5</color>
+
+        <!-- Цвета для текста на странице -->
+    <color name="primary_text_color">#333333</color>
+
+    <color name="bg_color">#F5F5F5</color>
+    <color name="header_background">#6200EE</color>
+    <color name="list_background">#FFFFFF</color>
+    <color name="list_divider_color">#BDBDBD</color>
+
+</resources>

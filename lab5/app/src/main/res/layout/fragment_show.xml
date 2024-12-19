@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".FragmentShow"
+    android:id="@+id/fragmShow">
+
+    <!-- Заголовок списка -->
+
+    <!-- Список -->
+    <TextView
+        android:id="@+id/tvListHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_background"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Список заметок"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/black" />
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/list_background"
+        android:divider="@color/list_divider_color"
+        android:dividerHeight="1dp"
+        android:padding="8dp" />
+
+    <!-- Пустое состояние (если список пуст) -->
+    <TextView
+        android:id="@+id/emptyState"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Список пуст"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>

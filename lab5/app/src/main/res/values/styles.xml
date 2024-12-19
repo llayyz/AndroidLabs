@@ -1,0 +1,20 @@
+<resources>
+    <!-- Стиль для заголовков -->
+    <style name="ToolbarTitleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Стиль для текста в табах -->
+    <style name="TabTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/tab_text_color</item>
+    </style>
+
+    <!-- Стиль для выбранного таба -->
+    <style name="TabSelectedTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/tab_selected_text_color</item>
+    </style>
+</resources>

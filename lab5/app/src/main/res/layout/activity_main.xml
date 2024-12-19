@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color"
+    android:clipToPadding="false">
+
+    <!-- TabLayout с улучшенным стилем -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/TabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab_background_rounded"
+        android:elevation="8dp"
+        app:tabTextColor="@color/tab_text_color"
+        app:tabSelectedTextColor="@color/tab_selected_text_color"
+        app:tabIndicatorColor="@color/tab_indicator_color"
+        app:tabIndicatorHeight="4dp"
+        app:tabPaddingStart="24dp"
+        app:tabPaddingEnd="24dp"
+        app:tabMode="fixed"
+        app:tabGravity="center"/>
+
+    <!-- ViewPager2 с улучшенной видимостью -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:background="@color/viewpager_background"
+        android:elevation="4dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb"
+        android:scrollbarTrackVertical="@drawable/scrollbar_track"/>
+</LinearLayout>

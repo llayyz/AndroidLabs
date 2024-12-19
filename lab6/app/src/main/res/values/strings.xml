@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Лаб 6 Грицук Д.Ю. АС-63</string>
+
+    <string name="journal_list_empty">Список журналов пуст</string>
+    <string name="journal_ready">Журнал готов к просмотру!</string>
+    <string name="enter_journal_id">Введите ID журнала</string>
+    <string name="view">Просмотреть</string>
+    <string name="author_info">Об авторе</string>
+    <string name="download">Скачать</string>
+    <string name="author">Грицук Д.Ю. АС-63</string>
+    <string name="delete">Удалить журнал</string>
+
+    <string name="alert_dialog_success">Success</string>
+    <string name="alert_dialog_error">Error</string>
+    <string name="alert_dialog_delete">File deleted</string>
+    <string name="alert_dialog_nofile">File not found</string>
+    <string name="alert_dialog_fileload">File load success</string>
+    <string name="alert_dialog_fillallfields">Fill journal id field</string>
+
+    <string name="new_popup_title">Добро пожаловать!</string>
+    <string name="new_popup_text">Привет! Это окно предназначено для отображения полезной информации перед началом работы. Ознакомьтесь с инструкцией, чтобы упростить использование приложения.</string>
+    <string name="new_popup_checkbox">Больше не показывать это сообщение</string>
+    <string name="new_ok">Продолжить</string>
+
+
+</resources>
